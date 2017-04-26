@@ -1,4 +1,4 @@
-;;; challenger-deep-theme.el --- Orbit Theme
+;;; challenger-deep-theme.el --- challenger-deep Theme
 
 ;; Author: MaxSt
 ;; Version: 0.0.2
