@@ -2,9 +2,9 @@
 
 # Screenshots #
 
-![Screenshot elisp](https://s17.postimg.org/dntyq566n/elisp.png)
+![Screenshot elisp](https://i.imgsafe.org/1a44786114.png)
 
-![Screenshot javascript](https://s17.postimg.org/gvyg36sgf/javascript.png)
+![Screenshot javascript](https://i.imgsafe.org/1a443510db.png)
 
 # Install using MELPA #
 ```
