@@ -6,6 +6,8 @@
 
 ![Screenshot javascript](https://i.imgsafe.org/1a443510db.png)
 
+![Screenshot org-mode](https://i.imgsafe.org/3152471da5.png)
+
 # Install using MELPA #
 ```
 M-x package-install <RET> challenger-deep-theme
