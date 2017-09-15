@@ -180,6 +180,10 @@
      ;; Global
      `(default                ((,c (:background ,bg :foreground ,fg))
                                (,ct (:background ,ct-bg :foreground ,ct-fg))))
+     `(line-number            ((,c (:background ,black :foreground ,grey-dd))
+                               (,ct (:background ,ct-black :foreground ,ct-grey-dd))))
+     `(line-number-current-line ((,c (:background ,blue :foreground ,black))
+                                 (,ct (:background ,ct-blue :foreground ,ct-black))))
      `(fringe                 ((,c (:inherit default :foreground ,comments))
                                (,ct (:inherit default :foreground ,ct-comments))))
      `(region                 ((,c (:background ,region))
