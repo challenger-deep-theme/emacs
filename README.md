@@ -2,11 +2,11 @@
 
 # Screenshots #
 
-![Screenshot elisp](https://i.imgsafe.org/1a44786114.png)
+![Screenshot elisp](https://s26.postimg.org/5kj8xaxh5/challenger-deep2.png)
 
-![Screenshot javascript](https://i.imgsafe.org/1a443510db.png)
+![Screenshot javascript](https://s26.postimg.org/oockdnabd/challenger-deep1.png)
 
-![Screenshot org-mode](https://i.imgsafe.org/3152471da5.png)
+![Screenshot org-mode](https://s26.postimg.org/saidqagop/challenger-deep3.png)
 
 # Install using MELPA #
 ```
