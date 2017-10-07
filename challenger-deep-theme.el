@@ -556,8 +556,8 @@
      `(whitespace-line             ((,c (:inherit 'trailing-whitespace))
                                     (,ct (:inherit 'trailing-whitespace))))
      ;; smartparens
-     `(sp-pair-overlay-face ((,c (:inherit default))
-                             (,ct (:inherit default))))
+     `(sp-pair-overlay-face ((,c (:foreground nil :background nil))
+                             (,ct (:foreground nil :background nil))))
      ;; anzu
      `(anzu-mode-line ((,c (:foreground ,magenta))
                        (,ct (:foreground ,ct-magenta))))
