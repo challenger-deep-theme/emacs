@@ -3,7 +3,7 @@
 ;; Author: MaxSt
 ;; Version: 0.0.2
 ;; Package-Requires: ((emacs "24"))
-;; URL: https://github.com/MaxSt/challenger-deep
+;; URL: https://github.com/challenger-deep-theme/emacs
 
 ;;; Commentary:
 ;; A dark color theme for Emacs
