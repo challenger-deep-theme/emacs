@@ -371,6 +371,10 @@
      			  (,ct (:foreground, ct-blue :background, ct-black))))
      `(ac-selection-face ((,c (:background, selection))
      			  (,ct (:background, ct-selection))))
+     `(ac-yasnippet-selection-face ((,c (:background, magenta-d :foreground, white))
+				    (,ct (:background, ct-magenta-d :foreground, ct-white))))
+     `(ac-yasnippet-candidate-face ((,c (:background, blue-d :foreground, black))
+				    (,ct (:background, ct-blue-d :foreground, ct-black))))
 
      ;; diff-hl
      `(diff-hl-change              ((,c (:foreground ,vc-modified))
