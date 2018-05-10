@@ -1,13 +1,9 @@
 ![Challenger Deep](https://s17.postimg.org/8b54c0ia7/challenger-deep.png)
 ## [Challenger Deep Theme](https://challenger-deep-theme.github.io/) for emacs #
 
-# Screenshots #
+# Screenshot #
 
-![Screenshot elisp](https://s26.postimg.org/5kj8xaxh5/challenger-deep2.png)
-
-![Screenshot javascript](https://s26.postimg.org/oockdnabd/challenger-deep1.png)
-
-![Screenshot org-mode](https://s26.postimg.org/saidqagop/challenger-deep3.png)
+![Screenshot](https://challenger-deep-theme.github.io/images/screenshots/emacs.png)
 
 # Install using MELPA #
 ```
