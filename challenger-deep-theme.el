@@ -497,7 +497,7 @@
                                     (,ct (:foreground ,ct-magenta :bold ,bold :inverse-video t))))
      `(iedit-read-only-occurrence  ((,c (:inherit region))))
      ;; ivy
-     `(ivy-current-match           ((,c (:background ,selection))
+     `(ivy-current-match           ((,c (:background ,selection :foreground ,fg))
                                     (,ct (:background ,ct-selection))))
      `(ivy-minibuffer-match-face-1 ((,c (:foreground ,cyan))
                                     (,ct (:foreground ,ct-cyan))))
