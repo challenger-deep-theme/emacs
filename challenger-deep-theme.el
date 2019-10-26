@@ -330,6 +330,9 @@
      `(window-divider-last-pixel   ((,c (:foreground ,vertical-bar))
                                     (,ct (:foreground ,ct-vertical-bar))))
 
+     `(fill-column-indicator      ((,c (:foreground ,grey-ddd))
+                                  (,ct (:foreground ,ct-grey-ddd))))
+
      ;; Plugins
      ;; Avy
      `(avy-lead-face-0    ((,c (:background ,search-bg :foreground ,search-fg))
@@ -848,8 +851,7 @@
      `(org-list-bullet           ((,c (:foreground ,cyan))
                                   (,ct (:foreground ,ct-cyan))))
      `(message-header-name ((,c (:foreground ,green))
-                            (,ct (:foreground ,ct-green)))))
-    ))
+                            (,ct (:foreground ,ct-green)))))))
 
 ;;;###autoload
 (when load-file-name
