@@ -37,6 +37,7 @@
       (red-d          "#ff5458")
       (ct-red-d       "#ff5f00")
       (red-dd         "#8e3939")
+      (ct-red-dd      "#800000")
       (red            "#ff8080")
       (ct-red         "#ff8787")
       (magenta        "#c991e1")
@@ -54,9 +55,9 @@
       (green          "#95ffa4")
       (ct-green       "#5fffaf")
       (green-d        "#62d196")
-      (green-dd       "#128046")
       (ct-green-d     "#5fd787")
-      )
+      (green-dd       "#128046")
+      (ct-green-dd    "#006400"))
 
 
   (let* ((bg              "#1b182c")
@@ -388,6 +389,17 @@
                                     (,ct (:foreground ,ct-vc-deleted))))
      `(diff-hl-insert              ((,c (:foreground ,vc-added))
                                     (,ct (:foreground ,ct-vc-added))))
+
+     `(diff-refine-changed         ((,c (:background ,yellow-d))
+                                    (,ct (:background ,ct-yellow-d))))
+     `(diff-refine-added           ((,c (:background ,green-dd
+                                         :foreground ,green))
+                                    (,ct (:background ,ct-green-dd
+                                          :foreground ,ct-green))))
+     `(diff-refine-removed         ((,c (:background ,red-dd
+                                         :foreground ,red))
+                                    (,ct (:background ,ct-red-dd
+                                         :foreground ,ct-red))))
      ;; ediff
      `(ediff-fine-diff-A    ((,c (:background ,yellow :foreground ,black :bold ,bold))
                              (,ct (:background ,ct-yellow :foreground ,ct-black :bold ,bold))))
@@ -623,11 +635,11 @@
      `(magit-diff-added                 ((,c (:foreground ,vc-added))
                                          (,ct (:foreground ,ct-vc-added))))
      `(magit-diff-added-highlight       ((,c (:background ,vc-added :foreground ,green-dd))
-                                         (,ct (:background ,ct-vc-added :foreground ,bg))))
+                                         (,ct (:background ,ct-vc-added :foreground ,ct-green-dd))))
      `(magit-diff-removed               ((,c (:foreground ,vc-deleted))
                                          (,ct (:foreground ,ct-vc-deleted))))
      `(magit-diff-removed-highlight     ((,c (:background ,vc-deleted :foreground ,red-dd))
-                                         (,ct (:background ,ct-vc-deleted :foreground ,bg))))
+                                         (,ct (:background ,ct-vc-deleted :foreground ,ct-red-dd))))
      `(smerge-refined-added             ((,c (:foreground ,vc-added))
                                          (,ct (:foreground ,ct-vc-added))))
      `(smerge-refined-removed           ((,c (:foreground ,vc-deleted))
