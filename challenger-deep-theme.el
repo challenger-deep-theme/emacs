@@ -793,6 +793,16 @@
                                         (,ct (:inherit italic :foreground ,ct-magenta-d))))
      `(markdown-bold-face              ((,c (:inherit bold :foreground ,red-d))
                                         (,ct (:inherit bold :foreground ,ct-red-d))))
+
+     ;; tab-bar-mode
+     `(tab-bar                   ((,c (:foreground nil :background ,bg :bold nil :box (:line-width 2 :color ,bg :style nil)))
+                                  (,ct (:foreground nil :background ,ct-black :bold nil))))
+
+     `(tab-bar-tab               ((,c (:foreground ,black :background ,cyan :box (:line-width 2 :color ,cyan :style nil)))
+                                  (,ct (:foreground ,ct-black :background ,ct-cyan :bold nil))))
+
+     `(tab-bar-tab-inactive       ((,c (:foreground ,fg :background ,black :bold nil :box (:line-width 2 :color ,black :style nil)))
+                                  (,ct (:foreground ,ct-fg :background ,ct-black :bold nil))))
      ;; org-mode
      `(org-tag                   ((,c (:foreground ,yellow :bold nil))
                                   (,ct (:foreground ,ct-yellow :bold nil))))
