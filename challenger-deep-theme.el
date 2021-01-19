@@ -34,6 +34,8 @@
       (ct-yellow      "#ffd75f")
       (yellow-d       "#ffb378")
       (ct-yellow-d    "#ffaf5f")
+      (yellow-dd      "#7b5b3d")
+      (ct-yellow-dd   "#ffaf00")
       (red-d          "#ff5458")
       (ct-red-d       "#ff5f00")
       (red-dd         "#8e3939")
@@ -104,8 +106,11 @@
          (modeline-bg-inactive black)
          ;; vcs
          (vc-modified    yellow-d)
+         (vc-modified-d  yellow-dd)
          (vc-added       green)
+         (vc-added-d     green-dd)
          (vc-deleted     red)
+         (vc-deleted-d   red-dd)
 
          ;; terminal colors:
          (ct-fg              ct-grey)
@@ -149,8 +154,11 @@
          (ct-modeline-bg-inactive ct-black)
          ;; vcs
          (ct-vc-modified    ct-yellow-d)
+         (ct-vc-modified-d  ct-yellow-dd)
          (ct-vc-added       ct-green)
+         (ct-vc-added-d     ct-green-d)
          (ct-vc-deleted     ct-red)
+         (ct-vc-deleted-d   ct-red-d)
          )
 
     (custom-theme-set-faces
@@ -383,12 +391,12 @@
 				    (,ct (:background, ct-blue-d :foreground, ct-black))))
 
      ;; diff-hl
-     `(diff-hl-change              ((,c (:foreground ,vc-modified))
-                                    (,ct (:foreground ,ct-vc-modified))))
-     `(diff-hl-delete              ((,c (:foreground ,vc-deleted))
-                                    (,ct (:foreground ,ct-vc-deleted))))
-     `(diff-hl-insert              ((,c (:foreground ,vc-added))
-                                    (,ct (:foreground ,ct-vc-added))))
+     `(diff-hl-change              ((,c (:foreground ,vc-modified-d :background ,vc-modified))
+                                    (,ct (:foreground ,ct-vc-modified-d :background ,ct-vc-modified))))
+     `(diff-hl-delete              ((,c (:foreground ,vc-deleted-d :background ,vc-deleted))
+                                    (,ct (:foreground ,ct-vc-deleted-d :background ,ct-vc-deleted))))
+     `(diff-hl-insert              ((,c (:foreground ,vc-added-d :background ,vc-added))
+                                    (,ct (:foreground ,ct-vc-added-d :background ,ct-vc-added))))
 
      `(diff-refine-changed         ((,c (:background ,yellow-d))
                                     (,ct (:background ,ct-yellow-d))))
