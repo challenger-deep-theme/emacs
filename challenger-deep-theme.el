@@ -698,6 +698,10 @@
      ;;all-the-icons-dired
      `(all-the-icons-dired-dir-face ((,c (:foreground ,blue))
                                      (,ct (:foreground ,ct-blue))))
+     ;; solaire Mode
+     `(solaire-default-face             ((,c (:inherit default :background ,black))
+                                         (,ct (:inherit default :background ,ct-black))
+                                         ))
 
      ;;latex
      `(font-latex-sectioning-1-face               ((,c (:foreground ,green :bold ,bold))
