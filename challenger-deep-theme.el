@@ -668,6 +668,24 @@
      `(wg-brace-face               ((,c (:foreground ,blue))
                                     (,ct (:foreground ,ct-blue))))
 
+     ;; ansi-color
+     `(ansi-color-black ((,c (:foreground ,black :background ,bg))
+                         (,ct (:foreground ,ct-black :background ,ct-bg))))
+     `(ansi-color-white ((,c (:foreground ,grey :background ,grey-d))
+                         (,ct (:foreground ,ct-grey :background ,ct-grey-d))))
+     `(ansi-color-red ((,c (:foreground ,red :background ,red-d))
+                       (,ct (:foreground ,ct-red :background ,ct-red-d))))
+     `(ansi-color-yellow ((,c (:foreground ,yellow :background ,yellow-d))
+                          (,ct (:foreground ,ct-yellow :background ,ct-yellow-d))))
+     `(ansi-color-green ((,c (:foreground ,green :background ,green-d))
+                         (,ct (:foreground ,ct-green :background ,ct-green-d))))
+     `(ansi-color-cyan ((,c (:foreground ,cyan :background ,cyan-d))
+                        (,ct (:foreground ,ct-cyan :background ,ct-cyan-d))))
+     `(ansi-color-blue ((,c (:foreground ,blue :background ,blue-d))
+                        (,ct (:foreground ,ct-blue :background ,ct-blue-d))))
+     `(ansi-color-magenta ((,c (:foreground ,magenta :background ,magenta-d))
+                           (,ct (:foreground ,ct-magenta :background ,ct-magenta-d))))
+
      ;; term and ansi-term
      `(term-color-black ((,c (:foreground ,black :background ,bg))
                          (,ct (:foreground ,ct-black :background ,ct-bg))))
